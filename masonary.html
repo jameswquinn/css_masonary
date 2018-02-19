@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <title>CSS Masonry Demo</title>
+      <style>
+         body {
+         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+         margin: 0;
+         background: #e9e9e9;
+         }
+         .wrapper {
+         width: 95%;
+         margin: 1.5em auto;
+         }
+         img, iframe {
+         width: 100%;
+         }
+         .masonry {
+         -moz-column-gap: 2rem;
+         -webkit-column-gap: 2rem;
+         column-gap: 2rem;
+         }
+         .masonary__item {
+         display: inline-block;
+         background: #fff;
+         margin: 0 0 1.5em;
+         width: 100%;
+         }
+         @media only screen and (min-width: 700px) {
+         .masonry {
+         -moz-column-count: 2;
+         -webkit-column-count: 2;
+         column-count: 2;
+         }
+         }
+         @media only screen and (min-width: 900px) {
+         .masonry {
+         -moz-column-count: 3;
+         -webkit-column-count: 3;
+         column-count: 3;
+         }
+         }
+         @media only screen and (min-width: 1100px) {
+         .masonry {
+         -moz-column-count: 4;
+         -webkit-column-count: 4;
+         column-count: 4;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="masonry">
+            <figure class="masonary__item">
+               <img src="http://w3bits.com/wp-content/uploads/masonry.jpg" />
+               <figcaption>
+                  <h2>Hello</h2>
+               </figcaption>
+            </figure>
+            <figure class="masonary__item">
+               <img src="http://media-cache-ec0.pinimg.com/736x/c3/10/22/c3102281f88237e7a2515099d2e6651f.jpg" />
+            </figure>
+            <figure class="masonary__item">
+               <img src="http://media-cache-ec0.pinimg.com/736x/0f/d0/84/0fd0847f7b48e5f16d896f62baa31b97.jpg" />
+            </figure>
+            <figure class="masonary__item">
+               <a href="https://twitter.com/w3bits_">I tweet sometimes.</a>
+            </figure>
+            <figure class="masonary__item">
+               <img src="http://media-cache-ak0.pinimg.com/736x/2e/7f/db/2e7fdb7ed765973407fed0b0141bb126.jpg" />
+               <h2>A block with a headline using &lt;h2&gt; tag.</h2>
+            </figure>
+            <figure class="masonary__item">
+               <img src="http://media-cache-ec0.pinimg.com/600x/0b/87/f4/0b87f4eb50b3d7a7c9d70d97234753ab.jpg" /><br />
+               Lorem ipsum dolor sit amet, dicta dolore adipisci hic ipsam velit deleniti possimus cumque accusantium rerum quibusdam.
+            </figure>
+            <figure class="masonary__item">
+               <img src="http://media-cache-ec0.pinimg.com/600x/95/11/02/951102f18d5a50c3ca483e93c6f92f5a.jpg" />
+            </figure>
+            <figure class="masonary__item">
+               <iframe width="640" height="390" src="http://www.youtube.com/embed/cwGq-uy0bhI" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <figure class="masonary__item">
+               <a href="https://plus.google.com/+w3Bits">Circle me on Google+</a>
+            </figure>
+            <figure class="masonary__item">
+               <img src="http://media-cache-ec0.pinimg.com/600x/97/35/91/97359142dce582b4530cb0f23fbe2e43.jpg" />
+            </figure>
+         </div>
+      </div>
+   </body>
+</html>
