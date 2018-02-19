@@ -1,0 +1,17 @@
+{
+  "name": "css_masonary",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jameswquinn <jameswquinn@users.noreply.github.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jameswquinn/css_masonary",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
